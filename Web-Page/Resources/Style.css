@@ -23,6 +23,7 @@ header{
     padding: 5px;
     align-items: center;
     justify-content: space-between;
+
 }
 
 .nav-stuff{
@@ -34,7 +35,7 @@ header{
     display: flex;
 }
 
-header img{
+.nav-bar .Logo{
     width: 60px;
 }
 
@@ -73,9 +74,11 @@ header img{
     margin-left: 10px;
     justify-content: space-evenly;
     flex-wrap: wrap;
+    padding-left: 100px;
+    padding-right: 100px;
 }  
 
-.containers{
+.products .containers{
     margin-top: 90px;
     width: 160px;
     height: 230px;
@@ -85,7 +88,7 @@ header img{
     flex-wrap: wrap;
 }
 
-.containers img{
+.products .containers img{
     padding: 2px;
     width: 160PX;
     height: 160px;
@@ -94,19 +97,19 @@ header img{
     transition: 0.1s ease-in-out
 }
 
-.containers img:hover{
-    box-shadow: 0 0px 10px 5px rgba(0, 0, 0, .15);
+.products .containers img:hover{
+    box-shadow: 0 0px 8px 2px rgba(0, 0, 0, .15);
     transition: 0.1s ease-in-out
 }
 
-.containers h3{
+.products .containers h3{
     font-size: 16px;
     padding-left: 5px;
     text-align: center;
     color: #000;
 }
 
-.containers p{
+.products .containers p{
     font-size: 15px;
     display: flex;
     color: #000;
@@ -114,7 +117,7 @@ header img{
     padding-right: 10px;
 }
 
-.containers a{
+.products .containers a{
     text-decoration: none;
 }
 
@@ -127,7 +130,7 @@ header img{
     height: 100%;
     width: 23vw;
     background-color: #fff;
-    box-shadow: 0 0 15px rgba(0 , 0, 0, 0.3);
+    box-shadow: 0 0 2px rgba(0 , 0, 0, 0.3);
     z-index: 4;
 }
 
@@ -154,4 +157,98 @@ header img{
     text-decoration: none;
     color: #000 ;
     font-weight: bold;
+}
+
+
+
+/*Payment methods page*/
+
+.main-frame{
+    display: flex;
+    padding-left: 20px;
+    padding-top: 80px;
+    align-items: center;
+    flex-direction: column;
+}
+
+.main-frame .containers{
+    font-size: 16px;
+    padding-right: 10px;
+    padding-left: 20px;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80px;
+    width: 70%;
+    background-color: #f7f7f7;
+    border-radius: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.main-frame .containers .paypalimg{
+    width: 120px;
+}
+
+.main-frame .large-container{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 300px;
+    padding: 30px;
+    border-end-start-radius: 20px;
+    border-end-end-radius:20px ;
+    background-color: #ececec;
+}
+
+.main-frame .large-container .inputs{
+    display: flex;
+    padding-bottom: 40px;
+    justify-content: center;
+}
+
+.main-frame .large-container input{
+    height: 30px;
+    width: 350px;
+    outline: none;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 7px;
+}
+
+.main-frame .large-container .intern-container{
+    display: flex;
+    justify-content: center;
+    padding-left: 5%;
+}
+
+.main-frame .large-container .smaller-inputs{
+    height: 30px;
+    width: 160px;
+    margin-right: 30px;
+    outline: none;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 7px;
+}
+
+.main-frame .Button{
+    display: flex;
+    justify-content: center;
+}
+
+.pay-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    height: 40px;
+    color: white;
+    border-radius: 25px;
+    border: 1px;
+    background-color: #1877F2;
+    text-decoration: none;
+
+}
+.Button a{
+    border-radius: 25px;
+    text-decoration: none;
 }
