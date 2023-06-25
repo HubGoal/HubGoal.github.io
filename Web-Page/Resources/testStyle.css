@@ -1,0 +1,97 @@
+
+html{
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+button{
+    cursor: pointer;
+}
+
+/*nav-bar*/
+
+header{
+    /* position: fixed; */
+    width: 100%;
+    background-color: #67B6FF;
+    z-index: 5;
+
+}
+
+.nav-bar{
+    display: flex;
+    padding: 5px;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.nav-stuff{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-right{
+    display: flex;
+}
+
+.nav-bar .Logo{
+    width: 60px;
+}
+
+.nav.search-box{
+    display: flex;
+    justify-content: center;
+}
+.search-bar{
+    padding-left: 20px;
+    display: flex;
+    width: 500px;
+    height: 40px;
+    border-radius: 10px;
+    outline: none;
+    border: 0 solid black;
+}
+
+::placeholder{
+    color: gray;
+    opacity: 75%;
+
+}
+
+
+.nav-bar a img{
+    padding-left: 10px;
+    width: 40px;
+}
+
+.aside__profile{
+    width: 25vw;
+    height: 100vh;
+}
+.list__profile{
+    margin: 0;
+    padding: 0  ;
+    width: 100%;
+    height: 50vh;
+    background-color: #F8F8F8;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.list__item{
+    list-style: none;
+}
+.link__item{
+    text-decoration: none;
+    color: #000000;
+}
