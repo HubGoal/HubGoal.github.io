@@ -6,6 +6,11 @@ html{
 body{
     margin: 0px;
     padding: 0px;
+    
+}
+
+button{
+    cursor: pointer;
 }
 
 /*nav-bar*/
@@ -252,3 +257,70 @@ header{
     border-radius: 25px;
     text-decoration: none;
 }
+
+
+
+/*Shopping cart Page*/
+
+.shoppingC_mainframe{
+    padding: 100px;
+
+}
+
+.shoppingC_mainframe .containers_shoppingC{
+    width: 100%;
+    height: 120px;
+    background-color: #ececec;
+    border-radius: 20px;
+    padding: 20px;
+    margin-bottom: 10px;
+    display: flex;
+
+}
+
+.shoppingC_mainframe .texts{
+    margin-bottom: 5px;
+}
+
+.shoppingC_mainframe .price{
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    text-justify: end;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.shoppingC_mainframe .article_img{
+    width: 80px;
+    margin-right: 20px;
+}
+
+.end-button{
+    position: sticky;
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+
+}
+.shoppingC_mainframe .total{
+    text-align: end;
+    padding-right: 80px;
+}
+
+.end-button a{
+    text-decoration: none;
+    border-radius: 30px;
+    }
+
+.end-button button{
+    width: 150px;
+    height: 50px;
+    outline: none;
+    border: none;
+    border-radius: 30px;
+    background-color: #1877F2;
+    color: white;
+}   
